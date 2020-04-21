@@ -4,7 +4,7 @@ echo "Downloading https://github.com/archan937/jsonv.sh/archive/$version.tar.gz"
 curl -L -s https://github.com/archan937/jsonv.sh/archive/$version.tar.gz -o jsonv.sh-$version.tar.gz
 
 echo "Unpacking jsonv.sh-$version.tar.gz"
-tar xzf jsonv.sh-$version.tar.gz
+tar xzvf jsonv.sh-$version.tar.gz
 
 echo "Installing jsonv"
 cd jsonv.sh-$version
